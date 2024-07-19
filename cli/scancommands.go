@@ -40,7 +40,7 @@ import (
 
 const auditScanCategory = "Audit & Scan"
 
-const dockerScanCmdHiddenName = "dockerscan"
+const dockerScanCmdHiddenName = "docker scan"
 
 func getAuditAndScansCommands() []components.Command {
 	return []components.Command{
